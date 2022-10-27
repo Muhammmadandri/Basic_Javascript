@@ -37,12 +37,3 @@ switch (color) {
     default:
         console.log("Indigo")
 }
-
-/*
- */
-var color = 2; {
-    console.log(color == 1 ? "Light" :
-        (color == 2 ? "Dark" :
-            (color == 3 ? "Nocture" :
-                color == 4 ? "terminal : Indigo")))
-}
