@@ -1,0 +1,121 @@
+<script>
+    //lesson 37
+    /*
+    function kopimix(bahan1, bahan2, bahan3) {
+        this.bahan1 = bahan1,
+            this.bahan2 = bahan2,
+            this.bahan3 = bahan3
+    }
+
+    var kopiAndre = new kopimix('gula', 'kopi', 'krim');
+    var kopiAbiel = new kopimix('gula', 'kopi', 'kental manis');
+    document.write(kopiAndre.bahan3)
+    document.write(kopiAbiel.bahan3)
+
+    var courses = new array('cinnamon dougnuts', 'warfless', 'memasak');
+    couses[2] = 'bernyanyi'
+    console.log(courses[2]);
+    */
+
+    //lesson 38
+    /*
+    var courses = new Array(3)
+    courses[0] = 'menjahit'
+    courses[1] = 'memasak'
+    courses[2] = 'menari'
+
+    //lesson 39
+    var courses = ['menjahit', 'memasak', 'menari'];
+    console.log(courses.lenght);
+
+    var proses1 = ['menjahit', 'memasak', 'menari']
+    var proses2 = ['mengajar', 'menyanyi', 'mengejar']
+    var courses = c1.concat(c2);
+    console.log(couses);
+    */
+
+    //soal
+    /*
+    function main() {
+        var level = parseint(readline(), 10);
+        var point = new array();
+
+        var count = 0;
+        while (count < level)[
+            var elem = parseint(readline(), 10); point[count] elem; count++;
+        ]
+
+        var sum = 0;
+        sum = point.reduce(function(a, b) {
+            return a + b
+        }, 0)
+        console.log(sum);
+    }
+*/
+
+    //lesson 40
+    //ingat Array asosiatif dalam javascript adalah object
+    /*var person = [];
+    person['name'] = 'andri';
+    person['age'] = 17;
+    document.write(person['name']);
+    document.write(person['age']);
+*/
+
+    //lesson 41 math
+    //document.write(math.PI)
+    //var number = Math.sqrt(81)
+    /*var random = Math.ceil(Math.random() * 10)
+    document.write(random + '<br/>')*/
+
+    /*
+    var year = 2004
+    document.write(callCal(year))
+
+    function callCal(year)
+
+    var count = Math.floor(year / 100)
+    return count
+    */
+
+    /*var number = prompt("makanan", "")
+    var answer = Math.sqrt(20)
+    alert("nilai dari akar pangkat dua" + 20 + "is" + answer);*/
+
+    //latihan menghitung tabung dengan core object
+    /*var jarijari = prompt("jumlah jari-jari volume tabung")
+    var tinggi = prompt("jumlah tinggi volume tabung")
+
+    var volume = Math.floor(Math.PI(Mat.pow(jarijari, 2) * tinggi))
+    alert("Volume tabung dengan tinggi =" + tinggi + "m <br/> dan jari-jari" + jarijari + "m <br/> adalah =" + volume)
+*/
+    //lesson 42 date
+    /*var nama = prompt("masukkan nama anda", "")
+
+    function myAlert() {
+        alert("Hi Andri");
+    }
+    setInterval(myAlert, 2000);
+    function printTime() {
+
+        var d = new Date();
+        var hour = d.getHours()
+        var minute = d.getMinutes()
+        var second = d.getSeconds()
+        document.body.innerHTML = hours + ":" + mins + ":" + secs;
+    }
+    setInterval(printTime, 1000)*/
+
+    var tahunLahir = 2004;
+    var tglLahir = 26;
+    var bulanLahir = 12;
+    var = prompt("kapan hari lahir kamu", "")
+    document.write(harilahir(tahunLahir, tglLahir, bulanLahir));
+
+    function harilahir(tahunLahir, tglLahir, bulanLahir) {
+        var hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
+        var date = new Date(tahunLahir, tglLahir, bulanLahir);
+        var day = date.getDay()
+        return hari[day]
+    }
+</script>

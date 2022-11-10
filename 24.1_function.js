@@ -62,6 +62,12 @@ var color = 2; {
                 color == 4 ? "terminal : Indigo")))
 }
 
+//cara program function awal
+function tambah(a, b) {
+    c = a + b
+    return c
+}
+console.log(tambah(2, 3));
 /* buatlah function menampikan nama, membuat program pengingat
 membuat program tentang pemenang dengan 3 kondisi tim 1 menang karena menang dari tim 2
 tim 2 menang dari tim 1 dan seri sam dengan tim 2.*/
